@@ -30,6 +30,7 @@ def main_temperaturas():
     promedio=calcular_promedio(temperaturas)
     alerta=obtener_alerta(promedio)
 
+    print("=== REPORTE FINAL DE TEMPERATURAS ===")
     print(f"Temperaturas registradas: {temperaturas}")
     print(f"Promedio de temperaturas: {promedio:.2f} °C")
     print(f"Estado: {alerta}")
